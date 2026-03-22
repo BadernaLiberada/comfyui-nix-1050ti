@@ -7,6 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-03-21
+
+### Changed
+- Upgraded ComfyUI from v0.17.2 to v0.18.0
+- Updated `comfyui-frontend-package` 1.41.20 → 1.41.21
+- Updated `comfyui-workflow-templates` 0.9.21 → 0.9.26
+- Updated `comfyui-workflow-templates-core` 0.3.168 → 0.3.175
+- Updated `comfyui-workflow-templates-media-video` 0.3.60 → 0.3.63
+- Updated `comfyui-workflow-templates-media-image` 0.3.104 → 0.3.107
+- Updated `comfyui-workflow-templates-media-other` 0.3.141 → 0.3.148
+- Updated `comfyui-manager` 4.1b2 → 4.1b6
+- Updated `comfy-aimdo` 0.2.10 → 0.2.12
+
+### Fixed
+- Replace deprecated `system` overlay attribute with `stdenv.hostPlatform.system` (#42)
+
+### Upstream Highlights (v0.18.0)
+- mxfp8 quantization format support
+- `--fp16-intermediates` flag for fp16 intermediate values between operations
+- `--enable-dynamic-vram` flag to force-enable dynamic VRAM management
+- CacheProvider API for external distributed caching (re-landed)
+- FP4/8/16 native dtype training support with quant linear autograd
+- Essentials tab with `essentials_category` for nodes and blueprints
+- Quiver SVG API nodes; `slice_cond` and per-model context window conditioning
+- Major VRAM reductions: LTX VAE chunked encoder, WAN VAE, tiled decode, inplace output processing
+- Improved RAM pressure release strategies (Windows speedups via comfy-aimdo 0.2.12)
+- PyTorch Attention enabled for AMD gfx1150 (Strix Point)
+- Atomic writes for userdata to prevent data loss on crash
+- No-store cache headers to prevent stale frontend chunks
+
 ## [0.17.2] - 2026-03-20
 
 ### Changed
