@@ -172,7 +172,7 @@
       torch = {
         version = "2.10.0";
         url = "https://download.pytorch.org/whl/cu126/torch-2.10.0%2Bcu126-cp312-cp312-manylinux_2_28_x86_64.whl";
-        hash = "sha256-kUVNz9uB8YH98hbW1tmRL72HlVeLkDhLO4uBMnNwcrs=";
+        hash = "sha256-KnpWkgbweWXv9pso4UdnZUC7C6bho5QQgCtuRwjLg1Y=";
       };
       torchvision = {
         version = "0.25.0";
