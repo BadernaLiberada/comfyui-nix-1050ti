@@ -182,7 +182,7 @@
       torchaudio = {
         version = "2.10.0";
         url = "https://download.pytorch.org/whl/cu126/torchaudio-2.10.0%2Bcu126-cp312-cp312-manylinux_2_28_x86_64.whl";
-        hash = "";
+        hash = "sha256-LjdtLa7OFVAjJ5tbqmJcdMr1sBPwmOCXAoTB8xxddlE=";
       };
     };
     # Linux x86_64 ROCm 7.1
