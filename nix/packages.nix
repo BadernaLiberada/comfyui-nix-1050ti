@@ -648,7 +648,7 @@ let
     name = "comfy-ui";
     tag = "cuda";
     comfyUiPackage = comfyUiPackage;
-    cudaVersion = "cu118";
+    cudaVersion = "cu126";
     extraLabels = {
       "org.opencontainers.image.version" = versions.comfyui.version;
       "com.nvidia.volumes.needed" = "nvidia_driver";
