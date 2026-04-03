@@ -168,6 +168,23 @@
         hash = "sha256-0muRoXPO5tuav/aLSNZCNpUP/FYo0GRI7N16xWhB4Qo=";
       };
     };
+    cu118 = {
+      torch = {
+        version = "2.7.1";
+        url = "https://download.pytorch.org/whl/cu118/torch-2.7.1%2Bcu118-cp312-cp312-linux_x86_64.whl";
+        hash = "sha256-k7Z9lKqZPpJc4+3v0lVYl4P3vM0lKj7dJgF9k2Jwq8k=";
+      };
+      torchvision = {
+        version = "0.22.1";
+        url = "https://download.pytorch.org/whl/cu118/torchvision-0.22.1%2Bcu118-cp312-cp312-linux_x86_64.whl";
+        hash = "sha256-1c8YV5xYp4c6zQ2gWZ0rX8gX9l7Q3mHk8r9kZx2cV3o=";
+      };
+      torchaudio = {
+        version = "2.7.1";
+        url = "https://download.pytorch.org/whl/cu118/torchaudio-2.7.1%2Bcu118-cp312-cp312-linux_x86_64.whl";
+        hash = "sha256-Z5k2dF8mP7vX1c9rT6qW3nL0sJ8gH4kP2yF6dL9mQ1A=";
+      };
+    };
     # Linux x86_64 ROCm 7.1
     rocm71 = {
       torch = {
