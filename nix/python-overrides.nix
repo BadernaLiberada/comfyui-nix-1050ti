@@ -12,8 +12,8 @@ let
 
   # Pre-built PyTorch CUDA wheels from pytorch.org
   # These avoid compiling PyTorch from source (which requires 30-60GB RAM and hours of build time)
-  # The wheels bundle CUDA 12.8 libraries, so no separate CUDA toolkit needed at runtime
-  cudaWheels = versions.pytorchWheels.cu118;
+  # The wheels bundle CUDA 12.6 libraries, so no separate CUDA toolkit needed at runtime
+  cudaWheels = versions.pytorchWheels.cu126;
 
   # Pre-built PyTorch ROCm wheels from pytorch.org
   # These avoid compiling PyTorch from source (which requires 30-60GB RAM and hours of build time)
