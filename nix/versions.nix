@@ -168,20 +168,20 @@
         hash = "sha256-0muRoXPO5tuav/aLSNZCNpUP/FYo0GRI7N16xWhB4Qo=";
       };
     };
-    cu118 = {
+    cu126 = {
       torch = {
-        version = "2.7.1";
-        url = "https://download.pytorch.org/whl/cu118/torch-2.7.1%2Bcu118-cp312-cp312-manylinux_2_28_x86_64.whl";
+        version = "2.10.0";
+        url = "https://download.pytorch.org/whl/cu126/torch-2.10.0%2Bcu126-cp312-cp312-manylinux_2_28_x86_64.whl";
         hash = "sha256-kUVNz9uB8YH98hbW1tmRL72HlVeLkDhLO4uBMnNwcrs=";
       };
       torchvision = {
-        version = "0.22.1";
-        url = "https://download-r2.pytorch.org/whl/cu118/torchvision-0.22.1%2Bcu118-cp312-cp312-manylinux_2_28_x86_64.whl";
+        version = "0.25.0";
+        url = "https://download.pytorch.org/whl/cu126/torchvision-0.25.0%2Bcu126-cp312-cp312-manylinux_2_28_x86_64.whl";
         hash = "";
       };
       torchaudio = {
-        version = "2.7.1";
-        url = "https://download-r2.pytorch.org/whl/cu118/torchaudio-2.7.1%2Bcu118-cp312-cp312-manylinux_2_28_x86_64.whl";
+        version = "2.10.0";
+        url = "https://download.pytorch.org/whl/cu126/torchaudio-2.10.0%2Bcu126-cp312-cp312-manylinux_2_28_x86_64.whl";
         hash = "";
       };
     };
